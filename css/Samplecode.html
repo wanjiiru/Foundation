@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+ <html>
+ <head<b>CSS STYLING <b>
+ <link rel="stylesheet/scss" href="index.css">
+ 
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ </head>
+ <meta charset="UTF-8">
+ <style>
+
+  div.interns {
+ color:black
+display:block;
+}
+
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+  }
+
+    img{
+
+      display: block;
+      margin: auto;
+      float: center;
+      padding: 10px;
+      border-radius: 70%;
+      border: 1px solid #ddd;
+      max-width: : 100%;
+      height: auto;
+      opacity: 0.5;
+      filter: alpha(opacity=50);
+
+}
+
+ 
+ body{ 
+    background-color:grey;
+    margin-right: 200px;
+    background-position: right bottom, left top;
+    background-repeat:no-repeat, no-repeat;
+    padding: 15px;
+
+  }
+
+  div.interns{
+    text-align: center;
+    color: lightblue;
+
+
+  }
+
+  table {
+        width: 100%
+      }
+  table,th,td {
+    border:3px solid lightblue;
+    border-collapse: collapse;
+}
+
+ th{
+   height: 50px;
+   text-align: center;
+}
+
+  td {
+    height: 50px;
+    vertical-align: bottom;
+  }
+
+  th td{
+    padding: 15px;
+
+  }
+
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 15px/50px;
+    color: red;
+    background-color: #3CBC8D;
+
+  }
+  .blog{
+    -webkit-column-count: 3; 
+    column-count: 3;
+    -webkit-column-rule-style: solid; 
+    column-rule-style: solid;
+    font-size: 15px;
+    column-rule: 1px solid lightblue;
+}
+
+#footer {
+font-family: Arial, Helvetica, sans-serif;
+padding: 9px 0 10px 0;
+margin: 0;
+font-size: 15px;
+}
+
+#footer {
+background-color: #003366;
+color: #80ADDA;
+text-align: center;
+}
+
+#header {
+background-color: #003366;
+color: #80ADDA;
+padding: 25px 0 30px 15px;
+}
+
+}
+#globalNav {
+color: #7EA800;
+background-color: #4A6300;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+border-top: 2px solid #5A7800;
+border-bottom: 2px solid #2F3E00;
+}
+#globalNav ul {
+list-style: none;
+padding-left: 15px;
+margin: 2px;
+}
+#globalNav li {
+display: inline;
+line-height: 36px;
+margin: 0;
+}
+#globalNav a {
+text-decoration: none;
+color: #FFF;
+padding: 9px 5px;
+}
+#globalNav a:hover {
+background-color: #739900;
+}
+
+
+ </style>
+ </head>
+
+  <body> 
+
+  <div id="wrapper">
+<div id="header">
+<p>First Css Styling </p>
+</div> 
+<div id="globalNav">
+  <ul>
+      <li><a href="#">Forms </a> |</li>
+          <li><a href="#">Images</a> |</li>
+           <li><a href="#">Google maps</a> |</li>
+             <li><a href="#">Tables</a></li>
+         </ul>
+</div> 
+</div>
+
+
+  <div class="interns">
+   <h1 style="text-decoration: underline;"> This is a paragraph</h1>
+      <p style="font-family: sans-serif;"> The name Liz is a Hebrew baby name. In Hebrew the meaning of the name Liz is: or Elizabeth, from Elisheba, meaning either oath of God, or God is satisfaction. Also a diminutive of Bethia (daughter or worshipper of God), and of Bethany, a New Testament village near Jerusalem.</p>
+
+  <i class="fa fa-cloud" style="font-size:24px;"></i>
+<hr>
+
+  </div>
+    <div class="interns">
+       <h1>This is another paragraph</h1>
+          <p style="font-family:times new Roman">The name Diana is a Latin baby name. In Latin the meaning of the name Diana is: Fertile. God, devine. Famous bearers: Diana was the Roman goddess of fertility and childbirth, of hunting, and the moon. The late Lady Diana Spencer, often called 'Lady Di', married British Prince Charles and became Princess Diana of Wales.
+       </p>
+     </div>
+<hr>
+
+
+<hr>
+<h1 style="color: purple">These are images</h1>
+<img src="/Users/enganga/Desktop/IMG_20170417_122125.jpg" alt="photos/IMG_20170417_122125.jpg" style="width: 102px; height: 100px;"> 
+<img src="/Users/enganga/Desktop/IMG_20170417_122125.jpg" alt="photos/IMG_20170417_122125.jpg" style="width: 109px; height: 100px;">
+<br>
+<br>
+<br>
+
+
+<hr>
+
+<h1 style="color: maroon">This is a Table</h1>
+      
+<table>
+<tr>
+  <th>Day</th>
+    <th>expenses</th>
+</tr>
+
+<tr>
+   <td>Monday</td>
+   <td>§8</td>
+</tr>
+
+<tr>
+    <td>Tuesday</td>
+    <td>§7</td>
+  
+</tr>
+</table>
+
+<hr>
+
+<h2>This is a form </h2>
+  <form>
+   First name:<br>
+    <input type="text" name="Firstname" value="Liz">
+  <br>
+      Lastname:<br>
+      <input type="text" name="Lastname" value="Wanjiiru">
+      <input type="Submit" value="Submit">
+  
+</form>
+
+<hr>
+
+<h2>This is an SVG</h2>
+<svg width="100" height="100">
+  <circle cx="60" cy="50" r="30" stroke="red" stroke-width="5" fill="black" />
+</svg>
+
+<hr>
+
+<h2>Google Maps</h2>
+   <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBx_xWpggb6rbYwT4rNTf2dDGtmJq1zejk'></script><div style='overflow:hidden;height:318px;width:412px;'><div id='gmap_canvas' style='height:318px;width:412px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://embedmap.org/'>google map widget for website</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=f65c1b5295876254e8ecac468b78c042b9037790'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(-1.2920659,36.82194619999996),mapTypeId: google.maps.MapTypeId.HYBRID};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-1.2920659,36.82194619999996)});infowindow = new google.maps.InfoWindow({content:'<strong>mpas</strong><br><br> nairobi<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+</script>
+
+<hr>
+
+<h1>APIs example</h1>
+<style>
+#div1, #div2 {
+    float: left;
+    width: 100px;
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+</style>
+<script>
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+}
+</script>
+
+
+<h2>Drag and Drop</h2>
+<p>Drag the picture forth and back between the two boxes.</p>
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="/Users/enganga/Desktop/images.png" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+</div>
+
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<h1> Blog sample<h1>
+
+<div class="blog">
+Digital survival: The transformation imperative
+When you hear the words digital transformation, it is highly likely that digital marketing comes to mind. The reason behind the same is owing to the fact that a majority of digital transformation discussions revolve around marketing metrics. The likes of page views, 
+Clicks and press mentions. As much as marketing is relevant to a business, there is more to digital transformation than just promotions.
+
+The sole way to gain full benefits from digital transformation across all the departments of any organization is through rethinking on existing business models. Genuine digital transformation - not the coating of marketing, but the actual thing - has become a business imperative. More than half of the Fortune 500 have vanished in the last decade signifying the need for parties to change.</div>
+
+<div id="footer">
+<p>&copy; Wanjiiru, CSS 2017</p>
+</div> <!-- close footer -->
+
+
+
+
+
+  </body>
+  </html>

@@ -1,0 +1,110 @@
+div.interns {
+  color: black;
+  display: block; }
+
+p::first-letter {
+  color: primary-color;
+  font-size: xx-large;
+  font-stack: 100% Helvetica, sans-serif; }
+
+img {
+  display: block;
+  margin: auto;
+  float: center;
+  padding: 10px;
+  border-radius: 70%;
+  border: 1px solid #ddd;
+  max-width: 10px;
+  height: auto;
+  opacity: 0.5;
+  filter: alpha(opacity=50); }
+
+body {
+  background-color: grey;
+  margin-right: 200px;
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, no-repeat;
+  padding: 15px; }
+
+div.interns {
+  text-align: center;
+  color: lightblue; }
+
+table {
+  width: 100%; }
+
+table, th, td {
+  border: 3px solid lightblue;
+  border-collapse: collapse; }
+
+th {
+  height: 50px;
+  text-align: center; }
+
+td {
+  height: 50px;
+  vertical-align: bottom; }
+
+th td {
+  padding: 15px; }
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: auto;
+  box-sizing: border-box;
+  border-radius: 15px/50px;
+  color: red;
+  background-color: #3CBC8D; }
+
+.blog {
+  -webkit-column-count: 2;
+  column-count: 3;
+  -webkit-column-rule-style: solid;
+  column-rule-style: solid;
+  font-size: 15px;
+  column-rule: 1px solid lightblue; }
+
+#footer {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 9px 0 10px 0;
+  margin: 0;
+  font-size: 15px; }
+
+#footer {
+  background-color: #003366;
+  color: #80ADDA;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+#header {
+  background-color: #003366;
+  color: #80ADDA;
+  padding: 25px 0 30px 15px; }
+
+#globalNav {
+  color: #7EA800;
+  background-color: #4A6300;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  border-top: 2px solid #5A7800;
+  border-bottom: 2px solid #2F3E00; }
+
+#globalNav ul {
+  list-style: none;
+  padding-left: 15px;
+  margin: 2px; }
+
+#globalNav li {
+  display: inline;
+  line-height: 36px;
+  margin: 0; }
+
+#globalNav a {
+  text-decoration: none;
+  color: #FFF;
+  padding: 9px 5px; }
+
+#globalNav a:hover {
+  background-color: #739900; }
